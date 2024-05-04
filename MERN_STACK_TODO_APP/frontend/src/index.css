@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background: whitesmoke;
+}
+
+.navbar{
+    font-style: italic;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    background-image: linear-gradient(to left,purple,indigo);
+}
+.navbar h2{
+    color: whitesmoke;
+}
+.navbar a{
+    text-decoration: none;
+}
+.navbar a:hover{
+    text-shadow: 2px 2px 5px violet;
+}
+
+
+.title{
+    margin-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    color: blueviolet;
+}
+
+.persons{
+    color: blueviolet;
+    margin: auto;
+    margin-top: 30px;
+    height: 150px;
+    width: 250px;
+    background: white;
+    box-shadow: 0px 2px 5px 2px whitesmoke;
+    display: flex;
+    float: inline-start;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column ;
+
+}
+
+
+.form {
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .form label {
+    color: blueviolet;
+    text-align: left;
+    display: block;
+  }
+  
+  .form input{
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+    outline: none;
+  }
+  
+  .form input[type=text]{
+    color: blueviolet;
+  }
+  
+  .form button {
+    font-size: 18px;
+    background: blueviolet;
+    color: whitesmoke;
+    border: 0;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  .maintitle{
+    margin-top: 20px;
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    color: blueviolet;
+  } 
+  
+  .intro{
+    margin-top: 50px;
+    text-align: center;
+    color: blueviolet;
+    font-size: 30px;
+  }
+
+  .enter{
+    margin-top: 30px;
+    align-items: center;
+    color: whitesmoke;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .enter p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: blueviolet;
+    font-size: 30px;
+  }
+  .enter a{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    width: 120px;
+    height: 50px;
+  }
+
+  .enter a:hover{
+    box-shadow: 0px 2px 5px 2px blueviolet;
+  }
